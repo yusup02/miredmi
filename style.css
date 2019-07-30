@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu>li {
+  list-style-type: none;
+  float: left;
+  width: 103px;
+  height: 50px;
+  border: 2px solid grey;
+  text-align: center;
+  line-height: 50px;
+  background-color: #18181b;
+  color: aliceblue;
+}
+
+.menu>li:hover{
+    background-color: #2d2d2d;
+}
+.menu>li:last-child{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.menu>li:first-child{
+   border-bottom-left-radius: 15px;
+   border-top-left-radius: 15px;
+    
+}
+
+.menu>li>a {
+  color: White;
+    text-decoration: none;
+    display: block;
+}
+.menu>li>a:hover{
+    color: red;
+}
+.menu>li>a:active{
+    color:orange;
+}
+h1 {
+  clear: both;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: url(img/fon.jpg);
+  width: 100%;
+  display: table;
+}
+a.s{
+    width: 600px;
+    margin: auto;
+    height: 596px;
+    }
+.s>img{
+    box-shadow: 25px 16px 32px -5px #18181b;
+    outline: 2px solid grey;
+    margin-right:15px;
+}
+
+input{
+    background-color: #18181b;
+    color: white;
+    
+}
+.f{
+     background-color: #18181b;
+     color: snow;
+}
+
+.f[type="text"]{
+    text-transform: capitalize;
+}
+
+.d>h2{
+    background: gainsboro;
+}
+
+table{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid #000;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.dex>div>a>img{
+    width: 200px;
+    height: 220px;
+    border: 2px solid grey;
+    box-shadow: 23px 13px 43px -3px #18181b;
+    margin: 3px
+}
+.dex>div>h1{
+    margin: 3px;
+}
+.dex>div{
+    display: inline-block;
+}
+
+<html>
+<head>
+.mainmenubtn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.mainmenubtn:hover {
+    background-color: red;
+    }
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.menu{
+    display: block;
+  
+}
+.dropdown:hover .menu {
+    display: block;
+}
+  
+    </style>
+</head>
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">Главное меню</button>
+  <div class="dropdown-child">
+    <a href="http://www.вашдомен.ru/page1.html">Подраздел 1</a>
+    <a href="http://www.вашдомен.ru/page2.html">Подраздел 2</a>
+    <a href="http://www.вашдомен.ru/page3.html">Подраздел 3</a>
+    <a href="http://www.вашдомен.ru/page4.html">Подраздел 4</a>
+    <a href="http://www.вашдомен.ru/page5.html">Подраздел 5</a>
+  </div>
+</div>
+</body>
+</html>
+
